@@ -1,0 +1,229 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+
+
+header {
+  /* background-color: #040D22; */
+  position: relative;
+}
+header .forms .form-control {
+  color: white;
+  background-color: rgba(255,255,255,.15);
+  border-color: rgba(255,255,255,.3);
+}
+header .forms .form-control::placeholder {
+  color: rgba(255,255,255,.6);
+}
+header [data-bs-toggle="offcanvas"] {
+  display: none;
+}
+header .offcanvas .list-group-item {
+  padding: 1rem;
+}
+header .offcanvas .list-group-item a {
+  color: black;
+  text-decoration: none;
+}
+header .offcanvas .list-group-item a:hover {
+  text-decoration: underline;
+}
+@media (max-width: 992px) { 
+  header .nav,
+  header .forms .form-control, 
+  header .forms .btn-link {
+    display: none;
+  }
+  header .logo {
+    flex: 1;
+  }
+  header [data-bs-toggle="offcanvas"] {
+    display: block;
+  }
+}
+
+
+section.hero {
+  background-color: #040D22;
+  position: relative;
+  overflow: hidden;
+}
+section.hero img.globe {
+  width: 900px;
+  position: absolute;
+  top: -5%;
+  left: 46%;
+}
+section.hero img.glow {
+  width: 200%;
+  height: 200%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+section.hero .container {
+  padding-top: 160px;
+  padding-bottom: 160px;
+  position: relative;
+}
+section.hero .headline {
+  color: white;
+}
+section.hero .headline h1 {
+  font-size: 68px;
+  font-weight: 700;
+  letter-spacing: -2px;
+}
+section.hero .headline p {
+  font-size: 26px;
+}
+section.hero .curve {
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+}
+@media (max-width: 992px) { 
+
+}
+
+
+section.youtube {
+  background-color: white;
+  position: relative;
+}
+section.youtube .container {
+  padding: 90px 0 70px;
+  position: relative;
+}
+section.youtube img.astronaut {
+  width: 480px;
+  position: absolute;
+  top: -420px;
+  right: 0;
+  z-index: 1;
+}
+section.youtube .ratio {
+  border-radius: 10px;
+  overflow: hidden;
+}
+@media (max-width: 768px) { 
+  section.youtube img.astronaut {
+    width: 340px;
+    top: -300px;
+  }
+}
+@media (max-width: 768px) { 
+  section.youtube img.astronaut {
+    display: none;
+  }
+}
+
+
+section.features {
+
+}
+section.features .container {
+  padding: 30px 0;
+}
+section.features .card {
+  color: #627597;
+  border: none;
+}
+section.features img {
+  padding: 30px 60px;
+}
+@media (max-width: 576px) { 
+  section.features img {
+    padding: 20px 30px;
+  }
+}
+
+
+section.map {
+
+}
+section.map .container {
+  padding: 100px 0;
+  color: #627597;
+}
+section.map h1 {
+  font-weight: 700;
+  font-size: 44px;
+}
+section.map p {
+  font-size: 24px;
+}
+#map {
+  width: 100%;
+  height: 500px;
+  border: 1px solid rgba(0, 0, 0, .2);
+  border-radius: 10px;
+  position: relative;
+  z-index: 1;
+}
+
+
+footer {
+  background-color: #040D22;
+  position: relative;
+  margin-top: 20%;
+}
+footer .curve {
+  transform: scale(-1);
+  position: absolute;
+  top: -1px;
+  left: 0;
+}
+footer .container {
+  position: relative;
+}
+footer img.illustration {
+  width: 100%;
+  margin-top: -33%;
+  margin-bottom: 50px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%) scaleX(-1);
+}
+footer img.logo {
+  opacity: .4;
+}
+footer h5 {
+  font-weight: 700;
+  color: rgba(255,255,255,.4);
+  margin-bottom: 20px;
+}
+footer ul li {
+  margin-bottom: 10px;
+}
+footer ul li a {
+  color: rgba(255,255,255,.4);
+  text-decoration: none;
+}
+footer ul li a:hover {
+  color: white;
+}
+footer .site-links {
+  margin: 0;
+  margin-top: 60px;
+  padding: 20px 0;
+  background-color: rgba(255,255,255,.05);
+  color: rgba(255,255,255,.3);
+}
+footer .site-links a {
+  color: rgba(255,255,255,.3);
+  text-decoration: none;
+}
+footer .site-links a:hover {
+  color: white;
+}
+@media (max-width: 992px) { 
+  footer {
+    text-align: center;
+  }
+  footer .logo {
+    margin-bottom: 50px;
+  }
+}
