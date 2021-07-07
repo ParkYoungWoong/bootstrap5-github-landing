@@ -9,7 +9,7 @@ header {
   position: relative;
 }
 header .forms .form-control {
-  color: white;
+  color: #FFF;
   background-color: rgba(255,255,255,.15);
   border-color: rgba(255,255,255,.3);
 }
@@ -29,9 +29,9 @@ header .offcanvas .list-group-item a {
 header .offcanvas .list-group-item a:hover {
   text-decoration: underline;
 }
-@media (max-width: 992px) { 
+@media (max-width: 992px) {
   header .nav,
-  header .forms .form-control, 
+  header .forms .form-control,
   header .forms .btn-link {
     display: none;
   }
@@ -69,7 +69,7 @@ section.hero .container {
   position: relative;
 }
 section.hero .headline {
-  color: white;
+  color: #FFF;
 }
 section.hero .headline h1 {
   font-size: 68px;
@@ -84,13 +84,13 @@ section.hero .curve {
   bottom: -1px;
   left: 0;
 }
-@media (max-width: 992px) { 
+@media (max-width: 992px) {
 
 }
 
 
 section.youtube {
-  background-color: white;
+  background-color: #FFF;
   position: relative;
 }
 section.youtube .container {
@@ -107,14 +107,15 @@ section.youtube img.astronaut {
 section.youtube .ratio {
   border-radius: 10px;
   overflow: hidden;
+  background-color: #000;
 }
-@media (max-width: 768px) { 
+@media (max-width: 768px) {
   section.youtube img.astronaut {
     width: 340px;
     top: -300px;
   }
 }
-@media (max-width: 768px) { 
+@media (max-width: 768px) {
   section.youtube img.astronaut {
     display: none;
   }
@@ -134,7 +135,7 @@ section.features .card {
 section.features img {
   padding: 30px 60px;
 }
-@media (max-width: 576px) { 
+@media (max-width: 576px) {
   section.features img {
     padding: 20px 30px;
   }
@@ -203,7 +204,7 @@ footer ul li a {
   text-decoration: none;
 }
 footer ul li a:hover {
-  color: white;
+  color: #FFF;
 }
 footer .site-links {
   margin: 0;
@@ -217,9 +218,9 @@ footer .site-links a {
   text-decoration: none;
 }
 footer .site-links a:hover {
-  color: white;
+  color: #FFF;
 }
-@media (max-width: 992px) { 
+@media (max-width: 992px) {
   footer {
     text-align: center;
   }
