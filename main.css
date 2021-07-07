@@ -84,9 +84,6 @@ section.hero .curve {
   bottom: -1px;
   left: 0;
 }
-@media (max-width: 992px) {
-
-}
 
 
 section.youtube {
@@ -94,7 +91,8 @@ section.youtube {
   position: relative;
 }
 section.youtube .container {
-  padding: 90px 0 70px;
+  padding-top: 90px;
+  padding-bottom: 70px;
   position: relative;
 }
 section.youtube img.astronaut {
@@ -126,7 +124,8 @@ section.features {
 
 }
 section.features .container {
-  padding: 30px 0;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 section.features .card {
   color: #627597;
@@ -146,7 +145,8 @@ section.map {
 
 }
 section.map .container {
-  padding: 100px 0;
+  padding-top: 100px;
+  padding-bottom: 100px;
   color: #627597;
 }
 section.map h1 {
