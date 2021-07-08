@@ -4,6 +4,23 @@ GitHub 랜딩 페이지를 클론 코딩합니다.
 
 [Demo](https://quirky-mcclintock-a14da0.netlify.app/)
 
+### Google Fonts
+
+https://fonts.google.com
+
+```html
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap" rel="stylesheet">
+```
+
+```css
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+}
+```
+
 ### YouTube
 
 ```html
@@ -106,9 +123,11 @@ GitHub 랜딩 페이지를 클론 코딩합니다.
   <li><a href="#">Shop</a></li>
 </ul>
 
-<div>© 2021 GitHub, Inc.</div>
-<a href="#">Terms</a>
-<a href="#">Privacy</a>
-<a href="#">Site Map</a>
-<a href="#">What is Git?</a>
+<ul>
+  <li>© 2021 GitHub, Inc.</li>
+  <li><a href="#">Terms</a></li>
+  <li><a href="#">Privacy</a></li>
+  <li><a href="#">Site Map</a></li>
+  <li><a href="#">What is Git?</a></li>
+</ul>
 ```

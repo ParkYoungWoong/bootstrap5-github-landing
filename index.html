@@ -10,7 +10,8 @@
   <link rel="icon" href="./favicon.png">
 
   <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap" rel="stylesheet">
 
   <!-- Bootstrap -->
@@ -113,7 +114,7 @@
       <div class="row">
         <div class="col-lg-7 col-12">
           <div class="headline">
-            <h1>Where the world builds software</h1>
+            <h1 class="text-white">Where the world builds software</h1>
             <p class="text-white-50">Millions of developers and companies build, ship, and maintain their software on GitHub—the largest and most advanced development platform in the world.</p>
           </div>
         </div>
@@ -123,13 +124,14 @@
           <form>
             <input class="form-control form-control-lg mb-3" type="text" placeholder="Email address">
             <input class="form-control form-control-lg mb-3" type="password" placeholder="Password">
-            <div class="d-flex">
-              <button class="btn btn-primary btn-lg flex-grow-1">Sign up for GitHub</button>
+            <div class="d-grid">
+              <button class="btn btn-primary btn-lg">Sign up for GitHub</button>
             </div>
           </form>
         </div>
       </div>
     </div>
+
     <img class="curve" src="./images/curve.svg" alt="Curve">
   </section>
 
@@ -264,13 +266,13 @@
         </div>
       </div>
     </div>
-    <div class="site-links list-unstyled d-flex justify-content-center flex-wrap">
-      <div class="me-4">© 2021 GitHub, Inc.</div>
-      <a class="me-4" href="#">Terms</a>
-      <a class="me-4" href="#">Privacy</a>
-      <a class="me-4" href="#">Site Map</a>
-      <a href="#">What is Git?</a>
-    </div>
+    <ul class="site-links list-unstyled d-flex justify-content-center flex-wrap">
+      <li>© 2021 GitHub, Inc.</li>
+      <li><a href="#">Terms</a></li>
+      <li><a href="#">Privacy</a></li>
+      <li><a href="#">Site Map</a></li>
+      <li><a href="#">What is Git?</a></li>
+    </ul>
   </footer>
 
 
