@@ -30,13 +30,13 @@ header .offcanvas .list-group-item a:hover {
   text-decoration: underline;
 }
 @media (max-width: 992px) {
+  header .logo {
+    flex-grow: 1;
+  }
   header .nav,
   header .forms input.form-control,
   header .forms .btn-link {
     display: none;
-  }
-  header .logo {
-    flex-grow: 1;
   }
   header [data-bs-toggle="offcanvas"] {
     display: block;
@@ -101,12 +101,6 @@ section.youtube .ratio {
   border-radius: 10px;
   overflow: hidden;
   background-color: black;
-}
-@media (max-width: 768px) {
-  section.youtube img.astronaut {
-    width: 340px;
-    top: -300px;
-  }
 }
 @media (max-width: 768px) {
   section.youtube img.astronaut {
@@ -203,28 +197,23 @@ footer .site-links {
   margin-top: 60px;
   padding: 20px;
   background-color: rgba(255,255,255,.05);
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 footer .site-links li {
-  color: rgba(255,255,255,.3);
-  margin: 0; /* Bootstrap을 통해 적용된 여백 초기화 */
+  color: rgba(255,255,255,.4);
+  margin: 0;
   margin-right: 20px;
 }
 footer .site-links li:last-child {
   margin-right: 0;
 }
-footer .site-links a {
-  color: rgba(255,255,255,.3);
-  text-decoration: none;
-  transition: .3s;
-}
-footer .site-links a:hover {
-  color: white;
-}
 @media (max-width: 992px) {
   footer {
     text-align: center;
   }
-  footer .logo {
+  footer img.logo {
     margin-bottom: 50px;
   }
 }
