@@ -30,7 +30,13 @@ body {
 ### Google Maps
 
 ```html
-<script>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3576.4682727362647!2d-122.39309942040764!3d37.78267513336626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085807f619a62df%3A0x491ce2f73977af35!2sGitHub!5e0!3m2!1sko!2skr!4v1667199132180!5m2!1sko!2skr" style="width: 100%; height: 100%; border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+```
+
+더 이상 아래 코드는 동작하지 않습니다.
+
+```html
+<!-- <script>
   // Initialize Google Map.
   function initMap() {
     const myLatLng = {
@@ -49,7 +55,7 @@ body {
     })
   }
 </script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCTQIlxBn5AfKGvsfJiormAE1esN3fcCkg&callback=initMap" async defer></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCTQIlxBn5AfKGvsfJiormAE1esN3fcCkg&callback=initMap" async defer></script> -->
 ```
 
 ### text

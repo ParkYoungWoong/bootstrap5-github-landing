@@ -130,9 +130,6 @@ section.features .card img {
 }
 
 
-section.map {
-
-}
 section.map .container {
   padding-top: 100px;
   padding-bottom: 100px;
@@ -150,6 +147,7 @@ section.map p {
   border: 1px solid rgba(0,0,0,.2);
   border-radius: 10px;
   z-index: 1;
+  overflow: hidden;
 }
 
 
