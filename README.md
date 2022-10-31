@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e6c43271-a546-4e27-83c8-c95774f4242e/deploy-status)](https://app.netlify.com/sites/quirky-mcclintock-a14da0/deploys)
+
 # GitHub landing
 
 GitHub 랜딩 페이지를 클론 코딩합니다.
