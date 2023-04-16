@@ -77,8 +77,11 @@ section.hero .headline p {
   font-size: 26px;
 }
 section.hero .curve {
+  width: 100%;
+  transform: scaleY(.5);
+  transform-origin: bottom;
   position: absolute;
-  bottom: -1px;
+  bottom: 0;
   left: 0;
 }
 
@@ -157,9 +160,10 @@ footer {
   margin-top: 20%;
 }
 footer .curve {
-  transform: scale(1,-1);
+  width: 100%;
+  transform: scaleY(-.5) translateY(50%);
   position: absolute;
-  top: -1px;
+  top: 0;
   left: 0;
 }
 footer .container {
