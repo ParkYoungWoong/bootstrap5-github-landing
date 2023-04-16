@@ -6,6 +6,40 @@ GitHub 랜딩 페이지를 클론 코딩합니다.
 
 [Demo](https://quirky-mcclintock-a14da0.netlify.app/)
 
+### 새롭게 업데이트된 코드
+
+```css
+/* 기존 코드 */
+section.hero .curve {
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+}
+footer .curve {
+  position: absolute;
+  transform: scale(1,-1);
+  top: -1px;
+  left: 0;
+}
+
+/* 새로운 코드 */
+section.hero .curve {
+  width: 100%;
+  transform: scaleY(.5);
+  transform-origin: bottom;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+footer .curve {
+  width: 100%;
+  transform: scaleY(-.5) translateY(50%);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+```
+
 ### Google Fonts
 
 https://fonts.google.com
